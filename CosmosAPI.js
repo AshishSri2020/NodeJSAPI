@@ -5,7 +5,7 @@ const key = "[FhHc2ssWgaENG4IJDGQKGmAG5RYHSy90Gj8U7kFvuP7M31f0WOGR4nEEQHkYBrTEEy
 const client = new CosmosClient({ endpoint, key });
 
 var http = require('http')
-var port = process.env.PORT || 1337;
+var port = process.env.PORT || 88;
 
 const databaseid = "sample database";
 const containerId = "sample collection";
