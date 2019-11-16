@@ -4,6 +4,9 @@ const endpoint = "https://sampledb123.documents.azure.com:443/"; // Add your end
 const key = "[FhHc2ssWgaENG4IJDGQKGmAG5RYHSy90Gj8U7kFvuP7M31f0WOGR4nEEQHkYBrTEEypzvhGmeQQuv6ujSeCBUw==]"; // Add the masterkey of the endpoint
 const client = new CosmosClient({ endpoint, key });
 
+var http = require('http')
+var port = process.env.PORT || 1337;
+
 const databaseid = "sample database";
 const containerId = "sample collection";
 
