@@ -2,7 +2,7 @@
   "name": "nodejs-web-app1",
   "version": "0.0.0",
   "description": "NodejsWebApp1",
-  "main": "CosmosAPI.js",
+  "main": "app.js",
   "author": "Ashish Srivastava",
   "dependencies": {
     "express": "^4.17.1"
